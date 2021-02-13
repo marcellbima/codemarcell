@@ -1,0 +1,33 @@
+body {}
+
+    {
+    font-family: "Comic Sans Ms", comic, serif;
+    font-size: 45px;
+    color: pink;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: pink;
+    background-color: white;
+    text-shadow: 5px 2px 4px pink;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
